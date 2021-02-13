@@ -2,7 +2,7 @@
 report_scheduler.py runs fine if you run code in main directly.  Woud like to have the two threads that run there ProcessReport and RequestReport run in a way that the the objects hold their queue of work can be displayed on a simple website
 
 **Simple Code/Goal Explaination**
-I have two threads that maintain a list of objects which is the work they want to handle.  I want to make a single webpage that shows the list of objects being matained by each thread.   That is primary goal of what I am looking for help on.   But there is also a list of questions at the bottom of the read me that we could disucess as a paid code review or work out some other way to dicuss
+I have two threads that maintain a list of objects which is the work they want to handle.  I want to make a single webpage that shows the list of objects being matained by each thread.   That is primary goal of what I am looking for help on.   But there is also a list of questions at the bottom of the read me that we could disucess as a paid code review or work out some other way to dicuss.   I did include a dump of sample mysql db.  I also included a little script to install all the needed python modules.
 
 
 **More Details - Explanation of how the code currently works.**
